@@ -41,6 +41,7 @@ limitations under the License.
 <h3 align="center">
     <p>State-of-the-art Natural Language Processing for Jax, PyTorch and TensorFlow</p>
 </h3>
+以下是原先fork 的帮助界面，我在其部分代码的基础上做了starttransformer_1，之后会把原先的帮助页面改过来
 
 🤗 Transformers provides thousands of pretrained models to perform tasks on texts such as classification, information extraction, question answering, summarization, translation, text generation and more in over 100 languages. Its aim is to make cutting-edge NLP easier to use for everyone.
 
