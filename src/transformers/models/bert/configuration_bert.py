@@ -23,17 +23,13 @@ logger = logging.get_logger(__name__)
 
 BERT_PRETRAINED_CONFIG_ARCHIVE_MAP = {
     "bert-base-uncased": "https://huggingface.co/bert-base-uncased/resolve/main/config.json",
-    "bert-large-uncased": "https://huggingface.co/bert-large-uncased/resolve/main/config.json",
+    
     "bert-base-cased": "https://huggingface.co/bert-base-cased/resolve/main/config.json",
     "bert-large-cased": "https://huggingface.co/bert-large-cased/resolve/main/config.json",
     "bert-base-multilingual-uncased": "https://huggingface.co/bert-base-multilingual-uncased/resolve/main/config.json",
     "bert-base-multilingual-cased": "https://huggingface.co/bert-base-multilingual-cased/resolve/main/config.json",
     "bert-base-chinese": "https://huggingface.co/bert-base-chinese/resolve/main/config.json",
     "bert-base-german-cased": "https://huggingface.co/bert-base-german-cased/resolve/main/config.json",
-    "bert-large-uncased-whole-word-masking": "https://huggingface.co/bert-large-uncased-whole-word-masking/resolve/main/config.json",
-    "bert-large-cased-whole-word-masking": "https://huggingface.co/bert-large-cased-whole-word-masking/resolve/main/config.json",
-    "bert-large-uncased-whole-word-masking-finetuned-squad": "https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad/resolve/main/config.json",
-    "bert-large-cased-whole-word-masking-finetuned-squad": "https://huggingface.co/bert-large-cased-whole-word-masking-finetuned-squad/resolve/main/config.json",
     "bert-base-cased-finetuned-mrpc": "https://huggingface.co/bert-base-cased-finetuned-mrpc/resolve/main/config.json",
     "bert-base-german-dbmdz-cased": "https://huggingface.co/bert-base-german-dbmdz-cased/resolve/main/config.json",
     "bert-base-german-dbmdz-uncased": "https://huggingface.co/bert-base-german-dbmdz-uncased/resolve/main/config.json",
